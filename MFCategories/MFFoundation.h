@@ -10,6 +10,7 @@
 #define MFFoundation_h
 
 #import "NSArray+MFSafe.h"
+#import "NSArray+MFBlock.h"
 #import "NSDictionary+MFSafe.h"
 
 #endif /* MFFoundation_h */

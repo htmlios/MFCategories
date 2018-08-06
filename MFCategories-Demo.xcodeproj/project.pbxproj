@@ -35,6 +35,9 @@
 		7068BED82117DD3200958A1B /* NSDictionary+MFSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 7068BEC42117DC9B00958A1B /* NSDictionary+MFSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7068BED92117DD3800958A1B /* NSArray+MFSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 7068BEC52117DC9B00958A1B /* NSArray+MFSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7068BEDA2117DDDF00958A1B /* module.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = 7027F6A72113EE36004E70FF /* module.modulemap */; };
+		7068BEE22117FCC800958A1B /* NSArray+MFBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 7068BEE02117FCC800958A1B /* NSArray+MFBlock.h */; };
+		7068BEE32117FCC800958A1B /* NSArray+MFBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 7068BEE12117FCC800958A1B /* NSArray+MFBlock.m */; };
+		7068BEE42117FCC800958A1B /* NSArray+MFBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 7068BEE12117FCC800958A1B /* NSArray+MFBlock.m */; };
 		70F2EBB42112AA4400728431 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F2EBB32112AA4400728431 /* AppDelegate.m */; };
 		70F2EBB72112AA4400728431 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F2EBB62112AA4400728431 /* ViewController.m */; };
 		70F2EBBC2112AA4800728431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F2EBBB2112AA4800728431 /* Assets.xcassets */; };
@@ -83,6 +86,8 @@
 		7068BEC72117DC9B00958A1B /* NSArray+MFSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MFSafe.m"; sourceTree = "<group>"; };
 		7068BEC82117DC9B00958A1B /* MFCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCategories.h; sourceTree = "<group>"; };
 		7068BEC92117DC9B00958A1B /* MFUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFUIKit.h; sourceTree = "<group>"; };
+		7068BEE02117FCC800958A1B /* NSArray+MFBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MFBlock.h"; sourceTree = "<group>"; };
+		7068BEE12117FCC800958A1B /* NSArray+MFBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MFBlock.m"; sourceTree = "<group>"; };
 		70F2EBAF2112AA4400728431 /* MFCategories-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MFCategories-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F2EBB22112AA4400728431 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		70F2EBB32112AA4400728431 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -159,6 +164,8 @@
 			children = (
 				7068BEC52117DC9B00958A1B /* NSArray+MFSafe.h */,
 				7068BEC72117DC9B00958A1B /* NSArray+MFSafe.m */,
+				7068BEE02117FCC800958A1B /* NSArray+MFBlock.h */,
+				7068BEE12117FCC800958A1B /* NSArray+MFBlock.m */,
 				7068BEC42117DC9B00958A1B /* NSDictionary+MFSafe.h */,
 				7068BEC62117DC9B00958A1B /* NSDictionary+MFSafe.m */,
 			);
@@ -231,6 +238,7 @@
 				7027F69B2113ECAA004E70FF /* MFCategories.h in Headers */,
 				7068BED72117DD2A00958A1B /* MFUIKit.h in Headers */,
 				7068BED82117DD3200958A1B /* NSDictionary+MFSafe.h in Headers */,
+				7068BEE22117FCC800958A1B /* NSArray+MFBlock.h in Headers */,
 				7068BED92117DD3800958A1B /* NSArray+MFSafe.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7068BED12117DC9B00958A1B /* NSArray+MFSafe.m in Sources */,
+				7068BEE42117FCC800958A1B /* NSArray+MFBlock.m in Sources */,
 				7068BECF2117DC9B00958A1B /* NSDictionary+MFSafe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7068BECE2117DC9B00958A1B /* NSDictionary+MFSafe.m in Sources */,
+				7068BEE32117FCC800958A1B /* NSArray+MFBlock.m in Sources */,
 				7068BED02117DC9B00958A1B /* NSArray+MFSafe.m in Sources */,
 				70F2EBB72112AA4400728431 /* ViewController.m in Sources */,
 				70F2EBC22112AA4800728431 /* main.m in Sources */,
