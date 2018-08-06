@@ -6,8 +6,35 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		7068BEDB2117E38800958A1B /* Export */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7068BEDC2117E38800958A1B /* Build configuration list for PBXAggregateTarget "Export" */;
+			buildPhases = (
+				7068BEDF2117E3A700958A1B /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Export;
+			productName = Export;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		700936D22112EEDE007E63DE /* NSDictionary+MFSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 700936D12112EEDE007E63DE /* NSDictionary+MFSafe.m */; };
+		7027F69B2113ECAA004E70FF /* MFCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 7027F6992113ECAA004E70FF /* MFCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7027F69E2113ECAA004E70FF /* MFCategories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7027F6972113ECA9004E70FF /* MFCategories.framework */; };
+		7027F69F2113ECAA004E70FF /* MFCategories.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7027F6972113ECA9004E70FF /* MFCategories.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7027F6A42113ED18004E70FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F2EBCB2112AA6F00728431 /* UIKit.framework */; };
+		7027F6A52113ED25004E70FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F2EBC92112AA6800728431 /* Foundation.framework */; };
+		7068BECB2117DC9B00958A1B /* MFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7068BEC22117DC9B00958A1B /* MFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7068BECE2117DC9B00958A1B /* NSDictionary+MFSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7068BEC62117DC9B00958A1B /* NSDictionary+MFSafe.m */; };
+		7068BECF2117DC9B00958A1B /* NSDictionary+MFSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7068BEC62117DC9B00958A1B /* NSDictionary+MFSafe.m */; };
+		7068BED02117DC9B00958A1B /* NSArray+MFSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7068BEC72117DC9B00958A1B /* NSArray+MFSafe.m */; };
+		7068BED12117DC9B00958A1B /* NSArray+MFSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7068BEC72117DC9B00958A1B /* NSArray+MFSafe.m */; };
+		7068BED72117DD2A00958A1B /* MFUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7068BEC92117DC9B00958A1B /* MFUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7068BED82117DD3200958A1B /* NSDictionary+MFSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 7068BEC42117DC9B00958A1B /* NSDictionary+MFSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7068BED92117DD3800958A1B /* NSArray+MFSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 7068BEC52117DC9B00958A1B /* NSArray+MFSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7068BEDA2117DDDF00958A1B /* module.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = 7027F6A72113EE36004E70FF /* module.modulemap */; };
 		70F2EBB42112AA4400728431 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F2EBB32112AA4400728431 /* AppDelegate.m */; };
 		70F2EBB72112AA4400728431 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F2EBB62112AA4400728431 /* ViewController.m */; };
 		70F2EBBC2112AA4800728431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F2EBBB2112AA4800728431 /* Assets.xcassets */; };
@@ -18,12 +45,44 @@
 		70F2EBCE2112AA7600728431 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F2EBCD2112AA7600728431 /* CoreData.framework */; };
 		70F2EBD02112AA7C00728431 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F2EBCF2112AA7C00728431 /* CoreLocation.framework */; };
 		70F2EBD22112AA8300728431 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F2EBD12112AA8300728431 /* libz.tbd */; };
-		70F2EBDD2112D83700728431 /* NSArray+MFSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F2EBDC2112D83700728431 /* NSArray+MFSafe.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7027F69C2113ECAA004E70FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70F2EBA72112AA4400728431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7027F6962113ECA9004E70FF;
+			remoteInfo = MFCategories;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7027F6A32113ECAA004E70FF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7027F69F2113ECAA004E70FF /* MFCategories.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		700936D02112EEDE007E63DE /* NSDictionary+MFSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MFSafe.h"; sourceTree = "<group>"; };
-		700936D12112EEDE007E63DE /* NSDictionary+MFSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MFSafe.m"; sourceTree = "<group>"; };
+		7027F6972113ECA9004E70FF /* MFCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MFCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7027F6992113ECAA004E70FF /* MFCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFCategories.h; sourceTree = "<group>"; };
+		7027F69A2113ECAA004E70FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7027F6A72113EE36004E70FF /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		7068BEC22117DC9B00958A1B /* MFFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFFoundation.h; sourceTree = "<group>"; };
+		7068BEC42117DC9B00958A1B /* NSDictionary+MFSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MFSafe.h"; sourceTree = "<group>"; };
+		7068BEC52117DC9B00958A1B /* NSArray+MFSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MFSafe.h"; sourceTree = "<group>"; };
+		7068BEC62117DC9B00958A1B /* NSDictionary+MFSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MFSafe.m"; sourceTree = "<group>"; };
+		7068BEC72117DC9B00958A1B /* NSArray+MFSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MFSafe.m"; sourceTree = "<group>"; };
+		7068BEC82117DC9B00958A1B /* MFCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCategories.h; sourceTree = "<group>"; };
+		7068BEC92117DC9B00958A1B /* MFUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFUIKit.h; sourceTree = "<group>"; };
 		70F2EBAF2112AA4400728431 /* MFCategories-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MFCategories-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F2EBB22112AA4400728431 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		70F2EBB32112AA4400728431 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,19 +97,24 @@
 		70F2EBCD2112AA7600728431 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		70F2EBCF2112AA7C00728431 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		70F2EBD12112AA8300728431 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		70F2EBD42112AE1600728431 /* MFCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFCategories.h; sourceTree = "<group>"; };
-		70F2EBD62112AE8200728431 /* MFUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFUIKit.h; sourceTree = "<group>"; };
-		70F2EBD82112AEB000728431 /* MFFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFFoundation.h; sourceTree = "<group>"; };
-		70F2EBDB2112D83700728431 /* NSArray+MFSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MFSafe.h"; sourceTree = "<group>"; };
-		70F2EBDC2112D83700728431 /* NSArray+MFSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MFSafe.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7027F6932113ECA9004E70FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7027F6A52113ED25004E70FF /* Foundation.framework in Frameworks */,
+				7027F6A42113ED18004E70FF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		70F2EBAC2112AA4400728431 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				70F2EBD22112AA8300728431 /* libz.tbd in Frameworks */,
+				7027F69E2113ECAA004E70FF /* MFCategories.framework in Frameworks */,
 				70F2EBD02112AA7C00728431 /* CoreLocation.framework in Frameworks */,
 				70F2EBCE2112AA7600728431 /* CoreData.framework in Frameworks */,
 				70F2EBCC2112AA6F00728431 /* UIKit.framework in Frameworks */,
@@ -61,11 +125,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7027F6982113ECAA004E70FF /* MFCategories */ = {
+			isa = PBXGroup;
+			children = (
+				7027F6992113ECAA004E70FF /* MFCategories.h */,
+				7027F69A2113ECAA004E70FF /* Info.plist */,
+			);
+			path = MFCategories;
+			sourceTree = "<group>";
+		};
+		7027F6A62113EE36004E70FF /* CommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				7027F6A72113EE36004E70FF /* module.modulemap */,
+			);
+			path = CommonCrypto;
+			sourceTree = "<group>";
+		};
+		7068BEC12117DC9B00958A1B /* MFCategories */ = {
+			isa = PBXGroup;
+			children = (
+				7068BED62117DCDD00958A1B /* UIKit */,
+				7068BEC32117DC9B00958A1B /* Foundation */,
+				7068BEC22117DC9B00958A1B /* MFFoundation.h */,
+				7068BEC82117DC9B00958A1B /* MFCategories.h */,
+				7068BEC92117DC9B00958A1B /* MFUIKit.h */,
+			);
+			path = MFCategories;
+			sourceTree = "<group>";
+		};
+		7068BEC32117DC9B00958A1B /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7068BEC52117DC9B00958A1B /* NSArray+MFSafe.h */,
+				7068BEC72117DC9B00958A1B /* NSArray+MFSafe.m */,
+				7068BEC42117DC9B00958A1B /* NSDictionary+MFSafe.h */,
+				7068BEC62117DC9B00958A1B /* NSDictionary+MFSafe.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		7068BED62117DCDD00958A1B /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		70F2EBA62112AA4400728431 = {
 			isa = PBXGroup;
 			children = (
-				70F2EBD32112AC4D00728431 /* MFCategories */,
+				7068BEC12117DC9B00958A1B /* MFCategories */,
+				7027F6A62113EE36004E70FF /* CommonCrypto */,
 				70F2EBB12112AA4400728431 /* MFCategories-Demo */,
+				7027F6982113ECAA004E70FF /* MFCategories */,
 				70F2EBB02112AA4400728431 /* Products */,
 				70F2EBC82112AA6800728431 /* Frameworks */,
 			);
@@ -75,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				70F2EBAF2112AA4400728431 /* MFCategories-Demo.app */,
+				7027F6972113ECA9004E70FF /* MFCategories.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,39 +220,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		70F2EBD32112AC4D00728431 /* MFCategories */ = {
-			isa = PBXGroup;
-			children = (
-				70F2EBD92112AEDE00728431 /* Foundation */,
-				70F2EBDA2112AEDE00728431 /* UIKit */,
-				70F2EBD42112AE1600728431 /* MFCategories.h */,
-				70F2EBD62112AE8200728431 /* MFUIKit.h */,
-				70F2EBD82112AEB000728431 /* MFFoundation.h */,
-			);
-			path = MFCategories;
-			sourceTree = "<group>";
-		};
-		70F2EBD92112AEDE00728431 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				70F2EBDB2112D83700728431 /* NSArray+MFSafe.h */,
-				70F2EBDC2112D83700728431 /* NSArray+MFSafe.m */,
-				700936D02112EEDE007E63DE /* NSDictionary+MFSafe.h */,
-				700936D12112EEDE007E63DE /* NSDictionary+MFSafe.m */,
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		70F2EBDA2112AEDE00728431 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7027F6942113ECA9004E70FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7068BECB2117DC9B00958A1B /* MFFoundation.h in Headers */,
+				7027F69B2113ECAA004E70FF /* MFCategories.h in Headers */,
+				7068BED72117DD2A00958A1B /* MFUIKit.h in Headers */,
+				7068BED82117DD3200958A1B /* NSDictionary+MFSafe.h in Headers */,
+				7068BED92117DD3800958A1B /* NSArray+MFSafe.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		7027F6962113ECA9004E70FF /* MFCategories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7027F6A22113ECAA004E70FF /* Build configuration list for PBXNativeTarget "MFCategories" */;
+			buildPhases = (
+				7027F6922113ECA9004E70FF /* Sources */,
+				7027F6932113ECA9004E70FF /* Frameworks */,
+				7027F6942113ECA9004E70FF /* Headers */,
+				7027F6952113ECA9004E70FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFCategories;
+			productName = MFCategories;
+			productReference = 7027F6972113ECA9004E70FF /* MFCategories.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		70F2EBAE2112AA4400728431 /* MFCategories-Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70F2EBC52112AA4800728431 /* Build configuration list for PBXNativeTarget "MFCategories-Demo" */;
@@ -146,10 +263,12 @@
 				70F2EBAB2112AA4400728431 /* Sources */,
 				70F2EBAC2112AA4400728431 /* Frameworks */,
 				70F2EBAD2112AA4400728431 /* Resources */,
+				7027F6A32113ECAA004E70FF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7027F69D2113ECAA004E70FF /* PBXTargetDependency */,
 			);
 			name = "MFCategories-Demo";
 			productName = "MFCategories-Demo";
@@ -165,6 +284,12 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = XYZOrganization;
 				TargetAttributes = {
+					7027F6962113ECA9004E70FF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7068BEDB2117E38800958A1B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					70F2EBAE2112AA4400728431 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -184,11 +309,21 @@
 			projectRoot = "";
 			targets = (
 				70F2EBAE2112AA4400728431 /* MFCategories-Demo */,
+				7027F6962113ECA9004E70FF /* MFCategories */,
+				7068BEDB2117E38800958A1B /* Export */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7027F6952113ECA9004E70FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7068BEDA2117DDDF00958A1B /* module.modulemap in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		70F2EBAD2112AA4400728431 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,13 +335,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7068BEDF2117E3A700958A1B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FrameWork_NAME=\"MFCategories\"\n\n#打包结果存储地址\nProducts_DIR=${SRCROOT}/Products/\n\n#定义framework与bundle存储路径\nFRAMEWORK_INSTALL_DIR=${SRCROOT}/Products/${FrameWork_NAME}.framework\nBundle_INSTALL_DIR=${SRCROOT}/Products/${Bundle_NAME}.bundle\n\n#将要生成包的路径\nWRK_DIR=build\n\nFRAMEWORK_DEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FrameWork_NAME}.framework\nFRAMEWORK_SIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FrameWork_NAME}.framework\n\n#清理下工程\n# -configuration ${CONFIGURATION}\n# Clean and build both architectures\nxcodebuild -configuration \"Release\" -target \"${FrameWork_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FrameWork_NAME}\" -sdk iphonesimulator clean build\n\n#清除存储路径下的旧包\nif [ -d \"${FRAMEWORK_INSTALL_DIR}\" ]\nthen\nrm -rf \"${FRAMEWORK_INSTALL_DIR}\"\nfi\nmkdir -p \"${FRAMEWORK_INSTALL_DIR}\"\n\n#随便拷贝一个.framework\ncp -R \"${FRAMEWORK_DEVICE_DIR}/\" \"${FRAMEWORK_INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into Universal final product.\n\n#合并.framework中的二进制文件，将通用二进制文件替换\nlipo -create \"${FRAMEWORK_DEVICE_DIR}/${FrameWork_NAME}\" \"${FRAMEWORK_SIMULATOR_DIR}/${FrameWork_NAME}\" -output \"${FRAMEWORK_INSTALL_DIR}/${FrameWork_NAME}\"\n\nrm -r \"${WRK_DIR}\"\nopen \"${Products_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		7027F6922113ECA9004E70FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7068BED12117DC9B00958A1B /* NSArray+MFSafe.m in Sources */,
+				7068BECF2117DC9B00958A1B /* NSDictionary+MFSafe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		70F2EBAB2112AA4400728431 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				700936D22112EEDE007E63DE /* NSDictionary+MFSafe.m in Sources */,
-				70F2EBDD2112D83700728431 /* NSArray+MFSafe.m in Sources */,
+				7068BECE2117DC9B00958A1B /* NSDictionary+MFSafe.m in Sources */,
+				7068BED02117DC9B00958A1B /* NSArray+MFSafe.m in Sources */,
 				70F2EBB72112AA4400728431 /* ViewController.m in Sources */,
 				70F2EBC22112AA4800728431 /* main.m in Sources */,
 				70F2EBB42112AA4400728431 /* AppDelegate.m in Sources */,
@@ -214,6 +374,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7027F69D2113ECAA004E70FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7027F6962113ECA9004E70FF /* MFCategories */;
+			targetProxy = 7027F69C2113ECAA004E70FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		70F2EBBD2112AA4800728431 /* LaunchScreen.storyboard */ = {
@@ -227,6 +395,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7027F6A02113ECAA004E70FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MFCategories/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "$(SRCROOT)/CommonCrypto/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mf.mfcategories.MFCategories;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7027F6A12113ECAA004E70FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MFCategories/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "$(SRCROOT)/CommonCrypto/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mf.mfcategories.MFCategories;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7068BEDD2117E38800958A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7068BEDE2117E38800958A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		70F2EBC32112AA4800728431 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -374,6 +624,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7027F6A22113ECAA004E70FF /* Build configuration list for PBXNativeTarget "MFCategories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7027F6A02113ECAA004E70FF /* Debug */,
+				7027F6A12113ECAA004E70FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7068BEDC2117E38800958A1B /* Build configuration list for PBXAggregateTarget "Export" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7068BEDD2117E38800958A1B /* Debug */,
+				7068BEDE2117E38800958A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		70F2EBAA2112AA4400728431 /* Build configuration list for PBXProject "MFCategories-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
